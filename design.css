@@ -1,0 +1,66 @@
+body{
+	width : 100%;
+}
+.navBar{
+	text-align:right;
+	margin:0;
+}
+.navBar a{
+}
+.heading{
+	width:100%;
+	padding: 0px;
+	margin:0px;
+	border :0px;
+	text-align: center;
+	font-family: helvatica;
+	font-style: bold;
+	color: rgb(26,58,97);
+	font-size: 30px;
+	background-color: #ccc;
+	border:1px mistyrose solid;
+}
+.login{
+	float:left;
+	width:30%;
+	border:1px solid #ccc;
+	padding:15px;
+	box-sizing: border-box;
+	background-color: rgb(17,37,57);
+	color : mistyrose;
+}
+.contents{
+	float:right;
+	width:70%;
+	border:1px solid #ccc;
+	padding:15px;
+	box-sizing: border-box;
+}
+.items{
+	float:right;
+	width:35%;
+	color:;
+	padding:15px;
+	box-sizing: border-box;
+}
+.login label{
+	display:block;
+	padding: 3px;
+	font-size: 26px;
+}
+.login input, .login textarea{
+	padding:8px;
+	width:60%;
+	background-color: green
+	color: green;
+}
+.login input[type="submit"]{
+	width : 25%;
+	background-color: rgb(120,120,255);
+	color: white;
+	align-self: center;
+}
+.fix-me {
+	position:fixed;
+	top:30px;
+}
